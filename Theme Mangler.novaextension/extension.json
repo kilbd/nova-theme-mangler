@@ -1,0 +1,27 @@
+{
+  "identifier": "com.kilb.theme-mangler",
+  "name": "Theme Mangler",
+  "organization": "Drew Kilb",
+  "description": "Customize your preferred theme.",
+  "version": "1.0.0",
+  "categories": ["themes"],
+
+  "main": "main.js",
+
+  "entitlements": {
+    "filesystem": "readwrite"
+  },
+
+  "commands": {
+    "extensions": [
+      {
+        "title": "Choose a Source Theme",
+        "command": "theme-mangler.pickSource"
+      },
+      {
+        "title": "Edit My Custom Styles",
+        "command": "theme-mangler.editStyles"
+      }
+    ]
+  }
+}
