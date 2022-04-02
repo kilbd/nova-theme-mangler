@@ -1,0 +1,23 @@
+/* Theme Mangler - User Styles
+ *
+ * Add your custom styles below to modify your chosen source theme. Keep in
+ * mind your styles need to follow Panic's guidelines for themes:
+ * https://docs.nova.app/extensions/themes/
+ *
+ * The Theme Mangler README also has tips on how to define your styles.
+ * Generally, you'll mostly specify a syntax "scope" and declare one of a few
+ * styles available to you:
+ * - background-color
+ * - color
+ * - font-style (italic)
+ * - font-weight (bold)
+ * - text-shadow
+ * 
+ * Example:
+ * keyword.modifier {
+ *     font-style: italic;
+ * }
+ *
+ * CSS custom properties (variables) won't work. Colors can be named,
+ * hexadecimal, rgb(a), hsl(a), or hsb(a).
+ */
