@@ -1,3 +1,4 @@
+import { editStyles } from './edit-styles'
 import { pickSource } from './pick-source'
 
 function activate() {
@@ -11,8 +12,6 @@ function deactivate() {
 
 nova.commands.register('theme-mangler.pickSource', pickSource)
 
-nova.commands.register('theme-mangler.editStyles', (_workspace) => {
-  console.log('edit styles requested')
-})
+nova.commands.register('theme-mangler.editStyles', editStyles)
 
 export { activate, deactivate }
