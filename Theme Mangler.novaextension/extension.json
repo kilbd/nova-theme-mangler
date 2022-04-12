@@ -5,6 +5,8 @@
   "description": "Customize your preferred theme.",
   "version": "1.0.0",
   "categories": ["themes"],
+  "repository": "https://github.com/kilbd/nova-theme-mangler/",
+  "bugs": "https://github.com/kilbd/nova-theme-mangler/issues",
 
   "main": "main.js",
 

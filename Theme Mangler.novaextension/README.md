@@ -1,10 +1,6 @@
 Hey, you – yes, YOU! Are you using a Nova theme that is _SO CLOSE_ to perfect but you wish you could make a handful of modifications? _(slaps hood)_ Then you need to test drive the not-patented **Theme Mangler™**! No need to create your own extension – the perfect theme is a few commands away!
 
-<!--
-🎈 It can also be helpful to include a screenshot or GIF showing your extension in action:
--->
-
-<!-- ![](https://nova.app/images/en/dark/editor.png) -->
+![Three main steps to customizing themes with Theme Mangler](https://github.com/kilbd/nova-theme-mangler/blob/main/assets/using_theme_mangler.gif?raw=true)
 
 ## How to Use
 
@@ -23,7 +19,6 @@ Hey, you – yes, YOU! Are you using a Nova theme that is _SO CLOSE_ to perfect 
 
 - Your custom styles need to follow [Panic's guidelines for themes](https://docs.nova.app/extensions/themes/). Though you define styles with CSS, not all CSS features will work – notably custom properties (variables) are not available.
 - Use Nova's **syntax inspector** tool to get the name of a "scope" you want to target with your custom style. Unless you're targeting a feature of a specific language, leave off the language name in the scope.
-<!-- TODO: add gif of scope inspector -->
+  ![Enable the scope inspector then hover over what you want to target](https://github.com/kilbd/nova-theme-mangler/blob/main/assets/inspector.gif?raw=true)
 - **Swatches** are generated from the theme you chose as a source. This makes it easier to ensure you're using colors from the theme. You do need to restart Nova after selecting a source theme for it to pick up the new Swatch group.
-  <!-- TODO: add gif of using a swatch for a color -->
-  <!-- ![](https://nova.app/images/en/light/tools/sidebars.png) -->
+  ![Using generated swatch to set the text color](https://github.com/kilbd/nova-theme-mangler/blob/main/assets/swatches.gif?raw=true)
